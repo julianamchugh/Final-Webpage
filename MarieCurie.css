@@ -1,0 +1,95 @@
+/* Juliana McHugh */
+/* Marie Curie */
+/* January 11, 2018 */
+
+* { 	/* This pertains to the whole webpage */
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+     }
+
+header { 
+    font-family: Apple Chancery, cursive;
+    font-size: 140% ;
+    color: darkblue ; 
+    border-bottom: 2px solid #ef9c00;  /* This is the border for under the header */
+    text-align: center; }
+
+body {
+    font-family: American Typewriter, serif;
+    color: cornflowerblue ;
+    font-size: 90% ;	/* This is the size of the text */
+    width: 95%;
+    margin: 15px auto;
+    border: 1px solid black; }
+
+#sidebarA {
+	font-family: American Typewriter, serif;
+	color: plum;		/* This is the color of the text displayed */
+	font-size: 90%;
+    width: 24%;
+    height: 400px;     
+    float: left;
+    margin: 30px auto;
+    margin-left: 8px ;
+    margin-right: 8px ;
+    }
+
+main {
+    font-family: American Typewriter, serif;
+    font-size: 120% ;
+    width: 50%; 
+    float: left;
+    border-right: 2px solid #ef9c00;
+    border-left: 2px solid #ef9c00;
+     }
+
+#sidebarB {
+	font-family: American Typewriter, serif; /* This is the font that text displays */
+	font-size: 90% ;
+	color: plum ;
+    width: 24%;
+    height: 400px;     
+    float: right;
+    margin: 15px auto;
+    text-align: center;
+     }
+ul {
+	margin-left: 30px;
+	}
+
+footer {
+    color: palevioletred ;
+    font-size: 40% ;
+    clear: both; 
+    border-top: 2px solid #ef9c00; }
+    
+a:hover, a:focus { 		/* "a:hover" and "a:focus" makes the links bigger and a different 
+						color when the cursor havers over them */
+	color: lightblue;	
+	font-size: 130%; }
+
+p {
+	margin: 10px ;
+	 }
+
+h1 {
+	margin: 10px;
+	margin-right: 30px auto;
+    margin-left: 8px ; }
+
+.pic {				/* This is a class that is specifically link to a certain image */
+	width: 130px;
+	height: 160px;
+	float: right;	/* This lets the image float to the right of the section */
+	margin: 7px;
+	padding: 7px;
+	border: 7px;
+	}
+.acc {				/* This is a class that is specifically link to a certain image */
+	width: 60 px;
+	height: 100px;
+	margin: 3px;
+	padding: 3px;
+	border: 3px;
+}
